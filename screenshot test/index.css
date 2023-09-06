@@ -1,0 +1,67 @@
+/* style for links*/
+h2 {
+  text-align:center; 
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+a {
+  display:flex;
+  justify-content: center;
+}
+/* example 1*/
+a[title] {
+  color:red;
+  font-size:18px;
+}
+a[title="link2"] {
+  color:green;
+  font-size: 20px;
+}
+a[title="link3"] {
+  color:orange;
+  font-size:22px;
+}
+a[title="link4"] {
+  color:black;
+  font-size:24px;
+}
+
+/* example 2 */
+a.title {
+  color:brown;
+  font-size:18px;
+}
+a.title2 {
+  color:blue;
+  font-size:20px;
+}
+a.title3 {
+  color:purple;
+  font-size:22px;
+}
+a.title4 {
+  color:grey;
+  font-size:24px;
+}
+
+
+/*example 3*/
+a > div {
+  font-size:20px;
+  color:orange;
+}
+
+
+/*input.invalid*/
+form {
+  display: flex;
+  margin-top: 20px;
+}
+h3 {
+  font-size: medium;
+}
+input:invalid {
+  color: red;
+}
